@@ -1,0 +1,96 @@
+PODS:
+  - Alamofire (4.3.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.15)
+  - FacebookLogin (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKLoginKit (~> 4.15)
+  - FacebookShare (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKShareKit (~> 4.15)
+  - FBSDKCoreKit (4.20.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.20.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.20.0):
+    - FBSDKCoreKit
+  - Font-Awesome-Swift (1.5.3)
+  - libwebp (0.5.1):
+    - libwebp/core (= 0.5.1)
+    - libwebp/dec (= 0.5.1)
+    - libwebp/demux (= 0.5.1)
+    - libwebp/dsp (= 0.5.1)
+    - libwebp/enc (= 0.5.1)
+    - libwebp/mux (= 0.5.1)
+    - libwebp/utils (= 0.5.1)
+    - libwebp/webp (= 0.5.1)
+  - libwebp/core (0.5.1):
+    - libwebp/webp
+  - libwebp/dec (0.5.1):
+    - libwebp/core
+  - libwebp/demux (0.5.1):
+    - libwebp/core
+  - libwebp/dsp (0.5.1):
+    - libwebp/core
+  - libwebp/enc (0.5.1):
+    - libwebp/core
+  - libwebp/mux (0.5.1):
+    - libwebp/core
+  - libwebp/utils (0.5.1):
+    - libwebp/core
+  - libwebp/webp (0.5.1)
+  - MapleBacon (3.0.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SDWebImage/WebP (3.8.2):
+    - libwebp
+    - SDWebImage/Core
+  - STLocationRequest (1.3.3):
+    - Font-Awesome-Swift (~> 1.5.2)
+  - SwiftSpinner (1.1.0)
+  - UIColor_Hex_Swift (3.0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare
+  - MapleBacon
+  - SDWebImage (= 3.8.2)
+  - SDWebImage/WebP
+  - STLocationRequest
+  - SwiftSpinner
+  - UIColor_Hex_Swift (~> 3.0.2)
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
+  FacebookLogin: c9d606504735780a9e3002465a615512e0a691a5
+  FacebookShare: 8e9ee8ea06505e6a1d3d719b0cc63e840fb8aaeb
+  FBSDKCoreKit: 2d16979b28fe28c2b95af0d275ad5f9703c6c8de
+  FBSDKLoginKit: a9d9391506c687e2304a590bf9312837fce7f375
+  FBSDKShareKit: 1b91af62a603d67f392bc7fde63bc4a0705dde31
+  Font-Awesome-Swift: 6615ee6b875d148f767ea60b5b4ff54e2ea3122e
+  libwebp: b9126f8982a95370cf4eaad9bb3fefd57f052c15
+  MapleBacon: 75ffc4d40c63b6e643bb66c2eca62b09de01a1cc
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  STLocationRequest: f78da9f42819fafabbdb710ae0c0f4b845e51c9b
+  SwiftSpinner: c03815614599b91eea46594bd52ba742849d0414
+  UIColor_Hex_Swift: 95f718452092a3efc8a827dffd2c04d3237be02d
+
+PODFILE CHECKSUM: b2ac521fdf6ce276e6b5304b422b2d919bdf342c
+
+COCOAPODS: 1.2.0
